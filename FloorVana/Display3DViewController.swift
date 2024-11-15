@@ -10,7 +10,11 @@ import UIKit
 class Display3DViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
-
+    
+    
+    
+    
+    
        // Create a property to store the image data model
        private var imageDataModel: Display3dDataModel!
 

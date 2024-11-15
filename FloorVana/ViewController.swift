@@ -194,13 +194,13 @@ class ViewController: UIViewController, UICollectionViewDataSource{
         }
         return layout
     }
-    
-    @IBAction func planButtonTapped(_ sender: UIButton) {
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        if let tabBarController = mainStoryboard.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
-            tabBarController.modalPresentationStyle = .fullScreen
-            tabBarController.selectedIndex = 1
-            self.present(tabBarController, animated: true, completion: nil)
-        }
-    }
+//    
+//    @IBAction func planButtonTapped(_ sender: UIButton) {
+//        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        if let tabBarController = mainStoryboard.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
+//            tabBarController.modalPresentationStyle = .fullScreen
+//            tabBarController.selectedIndex = 1
+//            self.present(tabBarController, animated: true, completion: nil)
+//        }
+//    }
 }

@@ -27,3 +27,4 @@ class myProjectCollectionViewCell: UICollectionViewCell {
         deleteButton.isHidden = !isEditing
     }
 }
+

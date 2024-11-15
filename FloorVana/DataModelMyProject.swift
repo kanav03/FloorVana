@@ -19,7 +19,7 @@ class DataModelMyProject {
     
     // Sample data with initial projects
     private var photos = [
-        ProjectDetails(imageName: "plus", type: "Add New Project", createdOn: "", area: "", bedrooms: "", kitchen: "", bathrooms: "", livingRoom: "", diningRoom: "", studyRoom: "", entry: "", vastu: ""),
+        ProjectDetails(imageName: "Plus", type: "     Add New Project", createdOn: "", area: "", bedrooms: "", kitchen: "", bathrooms: "", livingRoom: "", diningRoom: "", studyRoom: "", entry: "", vastu: ""),
         ProjectDetails(imageName: "myProject1", type: "2BHK", createdOn: "01/11/2024", area: "1200 sq ft", bedrooms: "2", kitchen: "1", bathrooms: "2", livingRoom: "1", diningRoom: "1", studyRoom: "1", entry: "1", vastu: "Yes"),
         ProjectDetails(imageName: "myProject2", type: "3BHK", createdOn: "05/11/2024", area: "1500 sq ft", bedrooms: "3", kitchen: "1", bathrooms: "3", livingRoom: "1", diningRoom: "1", studyRoom: "0", entry: "2", vastu: "No"),
         ProjectDetails(imageName: "myProject3", type: "4BHK", createdOn: "10/11/2024", area: "2000 sq ft", bedrooms: "4", kitchen: "1", bathrooms: "4", livingRoom: "1", diningRoom: "1", studyRoom: "1", entry: "1", vastu: "Yes"),
